@@ -1,0 +1,254 @@
+.titan-one-regular {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    border: 0;
+    padding: 0; 
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    margin: 0;
+}
+#Logo{
+    width: 10%;
+    margin: 0.5em 1em;
+    justify-content: center;
+}
+#Logo img{
+    border: 1rem;
+    width: 40%;
+    height: auto;
+}
+#Titulo{
+    width: 30%;
+}
+#Titulo h1{
+    width: 95%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: #c46f01;
+    text-align: center;
+    font-size: 3.3vw;
+}
+.menu-principal{
+    width: 28%;
+}
+.menu-principal ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-principal li a{
+    display: block;
+    text-decoration: none;
+    color: #c46f01;
+    padding: .6em 1em;
+    font-size: 0.9vw;
+    font-weight: bold;
+}
+.menu-principal li a:hover{
+    background: #ff110091;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    height: 27vw;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.imagen-principal{
+    margin: 0;
+    justify-content: center;
+    width: 23%;
+}
+.imagen-principal img{
+    display: block;
+    margin: 2px;
+    border: 5px solid #c46f01;
+    border-radius: 25px;
+    width: 95%;
+    height: 95%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.contenido-principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 1em;
+}
+.texto-contenido{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1em;
+    padding: 2em;
+    background: #8000008f;
+    border: 5px solid #c46f01;
+    border-radius: 10px;
+}
+.texto-contenido p{
+    width: 35%;
+    font-size: 2.5vw;
+    margin: 0.5em;
+    font-family: 'Titan One';
+    font-style: italic;
+    color: #c46f01;
+}
+.texto-contenido figure{
+    width: 45%;
+    margin: 2em;
+}
+.texto-contenido img{
+    width: 90%;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #c46f01;
+}
+#datos-empresa{
+    margin: 0.3em 5em;
+    font-size: 1vw;
+}
+#redes-sociales{
+    margin: 0 5em 0 0;
+}
+
+/*Style Circuitos*/
+
+.Circuitos{
+    background-color: rgba(0, 0, 0, 0.842);
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+}
+.Tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.3em #c46f01 solid;
+    border-radius: 25px;
+    flex: 1 1 45%;
+    max-width: 500px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 45%;
+    background-color: #8000008f;
+    margin: 1em 0;
+    padding: 1em;
+}
+a{
+    width: 60%;
+    text-align: center;
+    margin: 0.5em;
+}
+.Imagen-circuito img{
+    width: 100%;
+    border: 0.2em #c46f01 solid;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+iframe{
+    width: 100%;
+    margin: 0.5em;
+    aspect-ratio: 16/9;
+    border: 0.2em #c46f01 solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.Titulo-circuito{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: "Titan One";
+    color: #c46f01;
+}
+.Ficha-circuito{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.5em;
+    color: #c46f01;
+    
+}
+.Titulos-ficha-circuito p{
+    margin: 0.3em;
+    font-size: 1.1vw;
+    font-family: "Titan One";
+    font-weight: bold;
+}
+.Contenido-ficha-circuito p{
+    margin: 0.3em;
+    font-size: 1.1vw;
+    font-family: "Titan One";
+}
+
+/*Style Contratar*/
+
+.Formulario{
+    font-family: "Titan One";
+    font-size: 1.1vw;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #c46f01;
+}
+.Formulario legend{
+    font-size: 1.8vw;
+    padding: 0 0 2em 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.botones-formulario{
+    font-family: "Titan One";
+    font-size: 1.4vw;
+    display: block;
+    text-decoration: none;
+    color: #c46f01;
+    background-color: #000000;
+    margin: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+
+}

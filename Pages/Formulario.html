@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <title>AutoRacing - Contratar</title>
+</head>
+<body>
+    <header>
+        <div id="Logo">
+            <img src="../Image/Logo.jpeg" alt="Logo">
+        </div>
+        <div id="Titulo">
+            <h1>Autoraicing</h1>
+        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+                <li><a href="../Pages/Circuitos.html">Circuitos</a></li>
+                <li><a href="../Pages/Autos.html">Autos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="Formulario">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Contrata tu servicio:</legend>
+                    <label for="Nombre">Nombres[*]:</label>
+                    <input type="text" id="" name="Nombre" size="30" maxlength="25"required>
+                    <label for="Apellido">Apellidos[*]:</label>
+                    <input type="text" id="" name="Apellido" size="30" maxlength="25"required><br><br>
+                    <label for="DNI">DNI[*]:</label>
+                    <input type="number" name="DNI" id="" size="25" required>
+                    <label for="Tram_DNI">N° tramite DNI[*]:</label>
+                    <input type="password" name="Tram_DNI" id="" required>
+                    <label for="Fecha_nac">Fecha de nacimiento[*]:</label>
+                    <input type="date" name="" id="Fecha_nac"><br><br>
+                    <label for="Form-Circuito">Elija su circuito:</label>
+                    <select name="Form-Circuito" id="">
+                        <option value="Cir-BH">Circuito de Brands Hatch</option>
+                        <option value="Cir-Cat">Circuito de Catalunya</option>
+                        <option value="Cir-Inter">Circuito de Interlagos</option>
+                        <option value="Cir-LS">Circuito de Laguna Seca</option>
+                        <option value="Cir-Mon">Circuito de Monza</option>
+                        <option value="Cir-RBR">Circuito de Redbull Ring</option>
+                        <option value="Cir-SF">Circuito de Spa-Francorchamps</option>
+                        <option value="Cir-Suz">Circuito de Suzuka</option>
+                    </select><br><br>
+                    <label for="correo">Email[*]:</label>
+                    <input type="email" name="correo" id="" size="30" required>
+                    <label for="adjunto">Adjunte su licencia de conduccion:</label>
+                    <input type="file" name="adjunto" id=""><br><br>
+                    <label for="Fecha_tur">Fecha para su turno[*]:</label>
+                    <input type="date" name="" id="Fecha_tur"><br><br>
+                    <label for="rb">Opciones de conduccion:</label>
+                    <input type="radio" name="rb" id="" value="1">Solo
+                    <input type="radio" name="rb" id="" value="2">Con Acompañante
+                    <input type="radio" name="rb" id="" value="3">Con Piloto Profesional <br><br>
+                    <label for="comentarios">Escriba sus consultas:</label>
+                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escriba su consulta, maximo 200 caracteres"></textarea><br><br>
+                    <input type="checkbox" name="condiciones" id="">
+                    Acepto los terminos y condiciones del campeonato <br><br>
+                </fieldset>
+                <input type="submit" value="Enviar Datos" class="botones-formulario">
+                <input type="reset" value="Borrar" class="botones-formulario">
+            </form>
+        </article>
+    </main>
+
+
+
+    <footer>
+        <div id="datos-empresa">
+            <p>AutoRacing Cia.</p>
+            <p>Cecilia Grierson 355</p>
+            <P>Ciudad Autonoma de Buenos Aires</P>
+            <P>+54(11)897851872</P>
+            <p>info@autoracing.com</p>
+            <p>CP 1107</p>
+        </div>
+        <div id="redes-sociales">
+            <nav id="menu-footer">
+                <ul>
+                    <a href="https://www.youtube.com/@rafaeduaka"><i class="fa-brands fa-youtube"
+                            style="color: red;"></i></a>
+                    <i class="fa-brands fa-instagram" style="color: rgb(112, 24, 212);"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: rgb(192, 192, 192);"></i>
+                    <i class="fa-brands fa-tiktok" style="color: rgb(192, 192, 192);"></i>
+                    <i class="fa-brands fa-linkedin" style="color: blue;"></i>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a4b1794d3a.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
