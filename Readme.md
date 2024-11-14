@@ -12,4 +12,4 @@ En la parte leeme
 ## Pagina de Circuitos
 En esta pagina se observa los detalles tecnicos de los circuitos que estan disponibles para contrar junto con un video tomado del videojuego Gran Turismo 7
 ## Pagina Contratar
-En esta pagina la persona podra diligenciar un formulario en el cual colocara sus datos personales y eligira el circuito en el cual quiere conducir- [Descripcion]
+En esta pagina la persona podra diligenciar un formulario en el cual colocara sus datos personales y eligira el circuito en el cual quiere conducir
