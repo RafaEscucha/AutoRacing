@@ -19,6 +19,7 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../Pages/Circuitos.html">Circuitos</a></li>
                 <li><a href="../Pages/Autos.html">Autos</a></li>
+                <li><a href="../Pages/Tienda.html">Tienda</a></li>
             </ul>
         </nav>
     </header>
@@ -28,17 +29,17 @@
                 <fieldset>
                     <legend>Contrata tu servicio:</legend>
                     <label for="Nombre">Nombres[*]:</label>
-                    <input type="text" id="" name="Nombre" size="30" maxlength="25"required>
+                    <input type="text" id="Nombre" name="Nombre" size="30" maxlength="25">
                     <label for="Apellido">Apellidos[*]:</label>
-                    <input type="text" id="" name="Apellido" size="30" maxlength="25"required><br><br>
+                    <input type="text" id="Apellido" name="Apellido" size="30" maxlength="25"><br><br>
                     <label for="DNI">DNI[*]:</label>
-                    <input type="number" name="DNI" id="" size="25" required>
+                    <input type="number" name="DNI" id="DNI" size="25" >
                     <label for="Tram_DNI">N° tramite DNI[*]:</label>
-                    <input type="password" name="Tram_DNI" id="" required>
+                    <input type="password" name="Tram_DNI" id="Tram_DNI" >
                     <label for="Fecha_nac">Fecha de nacimiento[*]:</label>
-                    <input type="date" name="" id="Fecha_nac"><br><br>
+                    <input type="date" name="Fecha_nac" id="Fecha_nac" ><br><br>
                     <label for="Form-Circuito">Elija su circuito:</label>
-                    <select name="Form-Circuito" id="">
+                    <select name="Form-Circuito" id="Form_Circuito">
                         <option value="Cir-BH">Circuito de Brands Hatch</option>
                         <option value="Cir-Cat">Circuito de Catalunya</option>
                         <option value="Cir-Inter">Circuito de Interlagos</option>
@@ -49,18 +50,18 @@
                         <option value="Cir-Suz">Circuito de Suzuka</option>
                     </select><br><br>
                     <label for="correo">Email[*]:</label>
-                    <input type="email" name="correo" id="" size="30" required>
+                    <input type="email" name="correo" id="correo" size="30" >
                     <label for="adjunto">Adjunte su licencia de conduccion:</label>
-                    <input type="file" name="adjunto" id=""><br><br>
+                    <input type="file" name="adjunto" id="adjunto"><br><br>
                     <label for="Fecha_tur">Fecha para su turno[*]:</label>
-                    <input type="date" name="" id="Fecha_tur"><br><br>
-                    <label for="rb">Opciones de conduccion:</label>
-                    <input type="radio" name="rb" id="" value="1">Solo
-                    <input type="radio" name="rb" id="" value="2">Con Acompañante
-                    <input type="radio" name="rb" id="" value="3">Con Piloto Profesional <br><br>
+                    <input type="date" name="Fecha_tur" id="Fecha_tur"><br><br>
+                    <label for="opcion_conduccion">Opciones de conduccion:</label>
+                    <input type="radio" name="opcion_conduccion" id="opcion_solo" value="1">Solo
+                    <input type="radio" name="opcion_conduccion" id="opcion_acompanante" value="2">Con Acompañante
+                    <input type="radio" name="opcion_conduccion" id="opcion_piloto" value="3">Con Piloto Profesional <br><br>
                     <label for="comentarios">Escriba sus consultas:</label>
-                    <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escriba su consulta, maximo 200 caracteres"></textarea><br><br>
-                    <input type="checkbox" name="condiciones" id="">
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba su consulta, maximo 200 caracteres"></textarea><br><br>
+                    <input type="checkbox" name="condiciones" id="" required>
                     Acepto los terminos y condiciones del campeonato <br><br>
                 </fieldset>
                 <input type="submit" value="Enviar Datos" class="botones-formulario">
@@ -94,6 +95,7 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/a4b1794d3a.js" crossorigin="anonymous"></script>
+    <script src="../js/validation.js"></script>
     
 </body>
 </html>

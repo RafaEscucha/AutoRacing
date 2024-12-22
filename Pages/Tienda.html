@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRacing - Tienda</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+<body>
+    <header>
+        <div id="Logo">
+            <img src="../Image/Logo.jpeg" alt="Logo">
+        </div>
+        <div id="Titulo">
+            <h1>Autoraicing</h1>
+        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Pages/Autos.html">Autos</a></li>
+                <li><a href="../Pages/Circuitos.html">Circuitos</a></li>
+                <li><a href="../Pages/Formulario.html">Contratar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="tienda">
+        <article>
+            <h1>Tienda de Productos</h1>
+
+            <div id="productos">
+                <div class="producto">
+                    <span>Gorra - $10.000</span>
+                    <span>Stock: <span id="stock-gorra">50</span></span>
+                    <button onclick="agregarAlCarrito('Gorra', 10000, 'gorra')">Agregar</button>
+                </div>
+                <div class="producto">
+                    <span>Llavero - $1.000</span>
+                    <span>Stock: <span id="stock-llavero">100</span></span>
+                    <button onclick="agregarAlCarrito('Llavero', 1000, 'llavero')">Agregar</button>
+                </div>
+                <div class="producto">
+                    <span>Remera - $30.000</span>
+                    <span>Stock: <span id="stock-remera">20</span></span>
+                    <button onclick="agregarAlCarrito('Remera', 30000, 'remera')">Agregar</button>
+                </div>
+                <div class="producto">
+                    <span>Campera - $100.000</span>
+                    <span>Stock: <span id="stock-campera">8</span></span>
+                    <button onclick="agregarAlCarrito('Campera', 100000, 'campera')">Agregar</button>
+                </div>
+                <div class="producto">
+                    <span>Calcomania - $500</span>
+                    <span>Stock: <span id="stock-calcomania">100</span></span>
+                    <button onclick="agregarAlCarrito('Calcomania', 100000, 'calcomania')">Agregar</button>
+                </div>
+            </div>
+
+            <div id="carrito">
+                <h2>Carrito de Compras</h2>
+                <ul id="lista-carrito"></ul>
+                <p>Subtotal: $<span id="subtotal-carrito">0</span></p>
+                <p>Descuento: $<span id="descuento-carrito">0</span></p>
+                <p>IVA (21%): $<span id="iva-carrito">0</span></p>
+                <p><strong>Total: $<span id="total-carrito">0</span></strong></p>
+                <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+                <button onclick="mostrarCheckout()">Checkout</button>
+            </div>
+
+            <!-- Modal de Checkout-->
+            <div id="checkout-modal">
+                <div class="checkout-content">
+                    <h2>Finalizar Compra</h2>
+                    <p>Subtotal: $<span id="modal-subtotal">0</span></p>
+                    <p>Descuento: $<span id="modal-descuento">0</span></p>
+                    <p>IVA: $<span id="modal-iva">0</span></p>
+                    <p><strong>Total a pagar: $<span id="modal-total">0</span></strong></p>
+                    <button onclick="realizarCompra()">Confirmar Compra</button>
+                    <button onclick="cerrarCheckout()">Cancelar</button>
+                </div>
+             </div>
+
+     <footer>
+        <div id="datos-empresa">
+            <p>AutoRacing Cia.</p>
+            <p>Cecilia Grierson 355</p>
+            <P>Ciudad Autonoma de Buenos Aires</P>
+            <P>+54(11)897851872</P>
+            <p>info@autoracing.com</p>
+            <p>CP 1107</p>
+        </div>
+        <div id="redes-sociales">
+            <nav id="menu-footer">
+                <ul>
+                    <a href="https://www.youtube.com/@rafaeduaka"><i class="fa-brands fa-youtube"
+                            style="color: red;"></i></a>
+                    <i class="fa-brands fa-instagram" style="color: rgb(112, 24, 212);"></i>
+                    <i class="fa-brands fa-x-twitter" style="color: rgb(192, 192, 192);"></i>
+                    <i class="fa-brands fa-tiktok" style="color: rgb(192, 192, 192);"></i>
+                    <i class="fa-brands fa-linkedin" style="color: blue;"></i>
+                </ul>
+            </nav>
+        </div>
+        </article>
+    </main>
+    
+    </footer>
+    <script src="https://kit.fontawesome.com/a4b1794d3a.js" crossorigin="anonymous"></script>
+     
+     <script src="../js/app.js"></script>
+    
+</body>
+</html>
